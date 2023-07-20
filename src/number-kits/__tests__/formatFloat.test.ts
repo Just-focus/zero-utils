@@ -1,4 +1,4 @@
-import { formatFloat } from '../number-kits/formatFloat';
+import { formatFloat } from '../formatFloat';
 
 describe('formatFloat: ', () => {
   it('formatFloat(1+2) has a default digit 1, and it should return 3', () => {

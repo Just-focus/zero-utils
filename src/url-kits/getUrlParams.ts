@@ -1,3 +1,8 @@
+/**
+ * 获取链接参数
+ * @param url 链接
+ * @returns object
+ */
 export const getUrlParams = (url?: string): Record<string, string> => {
   if (typeof window === 'undefined') {
     return {};
